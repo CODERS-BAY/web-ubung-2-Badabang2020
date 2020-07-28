@@ -1,0 +1,102 @@
+body {
+  margin: 0 5rem;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  background-color: #263238;
+}
+
+nav ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+nav a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+}
+
+nav a.aktuell {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+main {
+  max-width: 65rem;
+  display: flex;
+  margin: auto;
+}
+
+article {
+  width: 50%;
+  line-height: 1.5rem;
+}
+
+img {
+  width: 32.5rem;
+}
+
+dl {
+  font-size: 2.5rem;
+}
+
+.definitions {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 1rem 1rem;
+}
+
+.defintionImages {
+  display: flex;
+  max-width: 50rem;
+  height: auto;
+  justify-content: space-between;
+}
+
+.tattooCare {
+  max-width: 50rem;
+  justify-content: center;
+  margin: auto;
+
+  font-size: 1.25rem;
+}
+
+.tattooCare h3 {
+  font-size: 2rem;
+}
+
+.tattooCare li {
+  line-height: 2rem;
+}
+
+footer {
+  background-color: #263238;
+  color: #ffffff;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    margin: 0 0.125rem;
+  }
+
+  main {
+    display: block;
+  }
+
+  dl {
+    line-height: normal;
+  }
+
+  article {
+    width: auto;
+  }
+}
